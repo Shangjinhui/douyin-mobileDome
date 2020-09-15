@@ -1,0 +1,29 @@
+/* pages/advert/advert.ttss */
+.advert{
+  width:700rpx;
+  margin:0 auto;
+  position:relative;
+}
+.advert .img{
+  width:100%;
+}
+.advert .span{
+  position: absolute;
+  right: 10rpx;
+  bottom: 10rpx;
+  line-height: 36rpx;
+  height: 36rpx;
+  font-size: 20rpx;
+  color: #fff;
+  background-color: rgba(0,0,0,.2);
+  border: 1px solid #fff;
+  border-radius: 6rpx;
+  padding: 0 15rpx;
+  font-weight: 300;
+}
+.advert .close{
+  position: absolute;
+  right: 10rpx;
+  top: 10rpx;
+  color:#333;
+}

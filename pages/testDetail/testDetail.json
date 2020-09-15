@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-advert": "../../components/advert/advert"
+  },
+  "navigationBarTitleText": "结果"
+}

@@ -1,0 +1,6 @@
+<!-- pages/advert/advert.ttml -->
+<view class="advert" tt:if="{{show}}" animation="{{animation}}">
+  <image class="img" src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/63631b8ee0494096a4a8ed1b2e88bbb4~tplv-k3u1fbpfcp-zoom-1.image" mode="widthFix" />
+  <i class="iconfont close icon-searchclose" bindtap="close"></i>
+  <text class="span">广告</text>
+</view>

@@ -1,0 +1,115 @@
+.page {
+  width: 100%;
+  padding-top:220rpx;
+  padding-bottom:30rpx;
+  box-sizing: border-box;
+}
+.header{
+  width:700rpx;
+  height:365rpx;
+  background:#fff;
+  border-radius:16rpx;
+  margin:0 auto;
+  padding:8rpx;
+  box-sizing: border-box;
+}
+.header .top{
+  border-bottom:2rpx solid #dedede;
+  width:100%;
+  height:123rpx;
+  flex-direction: column;
+}
+.header .top .h2{
+  font-size:40rpx;
+  color:#efad4d;
+  margin-bottom:22rpx;
+}
+.header .top .span{
+  font-size:28rpx;
+}
+.header .con{
+  flex-direction: column;
+}
+.header .con input{
+  width:500rpx;
+  text-align: center;
+  font-size:26rpx;
+  margin-top:32rpx;
+}
+.header .con .btn{
+  width:360rpx;
+  line-height:70rpx;
+  background-color:#efad4d;
+  border-radius: 32rpx;
+  margin-top:46rpx;
+  font-size:25rpx;
+  text-align: center;
+  color:#fff;
+  animation: btnZoom 3s ease-in-out infinite;
+}
+
+.evaluate{
+  width:700rpx;
+  /* height:624rpx; */
+  background:#fff;
+  margin:18rpx auto 0;
+  padding-bottom:10rpx;
+  border-radius:8rpx;
+}
+.evaluate .top{
+  width:100%;
+  height:135rpx;
+  padding-top:15rpx;
+  box-sizing: border-box;
+  color:#efad4d;
+  flex-direction: column;
+}
+.evaluate .top .h2{
+  font-size:40rpx;
+  margin-bottom:22rpx;
+}
+.evaluate .top .span{
+  font-size:32rpx;
+}
+.evaluate .con{height:420rpx;}
+.evaluate .list{
+  padding:9rpx 18rpx;
+  box-sizing: border-box;
+  margin-bottom:50rpx;
+}
+.evaluate .list .avatar{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+  margin-right:10rpx;
+}
+.evaluate .list .name{
+  font-size:34rpx;
+  margin-right:22rpx;
+}
+.evaluate .list .xingxing{
+  color:#fdcf09;
+  margin-right:12rpx;
+}
+.evaluate .list .word{
+  display:block;
+  width:520rpx;
+  font-size:24rpx;
+  color:#808080;
+  margin-top:20rpx;
+}
+
+@keyframes btnZoom{
+  0%{
+  transform: scale(1);
+  }
+  25%{
+      transform: scale(1.1);
+  }
+  50%{
+      transform: scale(1);
+  }
+  75%{
+      transform: scale(1.1);
+  }
+}

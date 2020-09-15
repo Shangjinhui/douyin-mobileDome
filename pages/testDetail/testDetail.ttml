@@ -1,0 +1,20 @@
+<!-- pages/testDetail/testDetail.ttml -->
+<view class="page">
+  <view class="header flex-center">{{fraction}}分</view>
+  <!-- 广告 -->
+  <my-advert/>
+  <!-- 语录 -->
+  <view class="card">
+    <view class="top">语录</view>
+    <view class="con flex-center">
+      犯得上士大夫士大夫犯
+    </view>
+  </view>
+  <!-- 分析 -->
+  <view class="card">
+    <view class="top">号码分析</view>
+    <view class="con flex-center">
+      犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫犯得上士大夫士大夫
+    </view>
+  </view>
+</view>
